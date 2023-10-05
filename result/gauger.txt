@@ -1,0 +1,158 @@
+GaugerTick 1
+
+GaugerTick 2
+
+Processing client message
+ - Placing pending requests for 'BE2->DC1' to 49
+ - Adding 49 total pending requests for 'DC1'
+
+Processing client message
+ - Placing pending requests for 'BE1->DC1' to 69
+ - Changing total pending requests for 'DC1' from 49 to 118
+
+GaugerTick 3
+ - 'BE1->DC1' may still be active
+ - 'BE2->DC1' may still be active
+ - Apportion 0.58 (69/118) 'BE1->DC1'
+ - Apportion 0.42 (49/118) 'BE2->DC1'
+
+Processing client message
+ - Replacing pending requests for 'BE2->DC1' from 49 to 48
+ - Changing total pending requests for 'DC1' from 118 to 117
+
+Processing client message
+ - Replacing pending requests for 'BE1->DC1' from 69 to 68
+ - Changing total pending requests for 'DC1' from 117 to 116
+
+GaugerTick 4
+ - 'BE1->DC1' may still be active
+ - 'BE2->DC1' may still be active
+ - Apportion 0.59 (68/116) 'BE1->DC1'
+ - Apportion 0.41 (48/116) 'BE2->DC1'
+
+Processing client message
+ - Replacing pending requests for 'BE2->DC1' from 48 to 44
+ - Changing total pending requests for 'DC1' from 116 to 112
+
+Processing client message
+ - Replacing pending requests for 'BE1->DC1' from 68 to 63
+ - Changing total pending requests for 'DC1' from 112 to 107
+
+GaugerTick 5
+ - 'BE1->DC1' may still be active
+ - 'BE2->DC1' may still be active
+ - Apportion 0.59 (63/107) 'BE1->DC1'
+ - Apportion 0.41 (44/107) 'BE2->DC1'
+
+Processing client message
+ - Replacing pending requests for 'BE1->DC1' from 63 to 58
+ - Changing total pending requests for 'DC1' from 107 to 102
+
+Processing client message
+ - Replacing pending requests for 'BE2->DC1' from 44 to 40
+ - Changing total pending requests for 'DC1' from 102 to 98
+
+Processing client message
+ - Placing pending requests for 'BE3->DC1' to 29
+ - Changing total pending requests for 'DC1' from 98 to 127
+
+GaugerTick 6
+ - 'BE1->DC1' may still be active
+ - 'BE2->DC1' may still be active
+ - 'BE3->DC1' may still be active
+ - Apportion 0.46 (58/127) 'BE1->DC1'
+ - Apportion 0.31 (40/127) 'BE2->DC1'
+ - Apportion 0.23 (29/127) 'BE3->DC1'
+
+Processing client message
+ - Replacing pending requests for 'BE1->DC1' from 58 to 53
+ - Changing total pending requests for 'DC1' from 127 to 122
+
+Processing client message
+ - Replacing pending requests for 'BE2->DC1' from 40 to 36
+ - Changing total pending requests for 'DC1' from 122 to 118
+
+Processing client message
+ - Replacing pending requests for 'BE3->DC1' from 29 to 28
+ - Changing total pending requests for 'DC1' from 118 to 117
+
+GaugerTick 7
+ - 'BE1->DC1' may still be active
+ - 'BE2->DC1' may still be active
+ - 'BE3->DC1' may still be active
+ - Apportion 0.45 (53/117) 'BE1->DC1'
+ - Apportion 0.31 (36/117) 'BE2->DC1'
+ - Apportion 0.24 (28/117) 'BE3->DC1'
+
+Processing client message
+ - Replacing pending requests for 'BE3->DC1' from 28 to 26
+ - Changing total pending requests for 'DC1' from 117 to 115
+
+Processing client message
+ - Replacing pending requests for 'BE1->DC1' from 53 to 49
+ - Changing total pending requests for 'DC1' from 115 to 111
+
+Processing client message
+ - Replacing pending requests for 'BE2->DC1' from 36 to 33
+ - Changing total pending requests for 'DC1' from 111 to 108
+
+GaugerTick 8
+ - 'BE1->DC1' may still be active
+ - 'BE2->DC1' may still be active
+ - 'BE3->DC1' may still be active
+ - Apportion 0.45 (49/108) 'BE1->DC1'
+ - Apportion 0.31 (33/108) 'BE2->DC1'
+ - Apportion 0.24 (26/108) 'BE3->DC1'
+
+Processing client message
+ - Replacing pending requests for 'BE1->DC1' from 49 to 45
+ - Changing total pending requests for 'DC1' from 108 to 104
+
+Processing client message
+ - Replacing pending requests for 'BE2->DC1' from 33 to 30
+ - Changing total pending requests for 'DC1' from 104 to 101
+
+Processing client message
+ - Replacing pending requests for 'BE3->DC1' from 26 to 24
+ - Changing total pending requests for 'DC1' from 101 to 99
+
+GaugerTick 9
+ - 'BE1->DC1' may still be active
+ - 'BE2->DC1' may still be active
+ - 'BE3->DC1' may still be active
+ - Apportion 0.45 (45/99) 'BE1->DC1'
+ - Apportion 0.30 (30/99) 'BE2->DC1'
+ - Apportion 0.24 (24/99) 'BE3->DC1'
+
+Processing client message
+ - Replacing pending requests for 'BE2->DC1' from 30 to 27
+ - Changing total pending requests for 'DC1' from 99 to 96
+
+Processing client message
+ - Replacing pending requests for 'BE1->DC1' from 45 to 41
+ - Changing total pending requests for 'DC1' from 96 to 92
+
+Processing client message
+ - Replacing pending requests for 'BE3->DC1' from 24 to 22
+ - Changing total pending requests for 'DC1' from 92 to 90
+
+GaugerTick 10
+ - 'BE1->DC1' may still be active
+ - 'BE2->DC1' may still be active
+ - 'BE3->DC1' may still be active
+ - Apportion 0.46 (41/90) 'BE1->DC1'
+ - Apportion 0.30 (27/90) 'BE2->DC1'
+ - Apportion 0.24 (22/90) 'BE3->DC1'
+
+Processing client message
+ - Replacing pending requests for 'BE3->DC1' from 22 to 20
+ - Changing total pending requests for 'DC1' from 90 to 88
+
+Processing client message
+ - Replacing pending requests for 'BE1->DC1' from 41 to 37
+ - Changing total pending requests for 'DC1' from 88 to 84
+
+Processing client message
+ - Replacing pending requests for 'BE2->DC1' from 27 to 24
+ - Changing total pending requests for 'DC1' from 84 to 81
+

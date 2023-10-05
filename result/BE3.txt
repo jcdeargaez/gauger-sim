@@ -1,0 +1,56 @@
+ClientTick 1
+
+ClientTick 2
+
+ClientTick 3
+
+ClientTick 4
+
+Incrementing pending requests to resource 'DC1' by 30
+ - Now 30 with initial apportion 0.1
+
+ClientTick 5
+'DC1' max rate per cycle  10
+ - Taking 1 requests for 'DC1', had 30 pending requests, now 29
+ - Refreshing pending requests 'BE3->DC1' 29
+
+ClientTick 6
+'DC1' max rate per cycle  10
+ - Taking 1 requests for 'DC1', had 29 pending requests, now 28
+ - Refreshing pending requests 'BE3->DC1' 28
+
+BE3 processing gauger message
+ - Gauger indicated apportion 0.23 to resource 'DC1'
+
+ClientTick 7
+'DC1' max rate per cycle  10
+ - Taking 2 requests for 'DC1', had 28 pending requests, now 26
+ - Refreshing pending requests 'BE3->DC1' 26
+
+BE3 processing gauger message
+ - Gauger indicated apportion 0.24 to resource 'DC1'
+
+ClientTick 8
+'DC1' max rate per cycle  10
+ - Taking 2 requests for 'DC1', had 26 pending requests, now 24
+ - Refreshing pending requests 'BE3->DC1' 24
+
+BE3 processing gauger message
+ - Gauger indicated apportion 0.24 to resource 'DC1'
+
+ClientTick 9
+'DC1' max rate per cycle  10
+ - Taking 2 requests for 'DC1', had 24 pending requests, now 22
+ - Refreshing pending requests 'BE3->DC1' 22
+
+BE3 processing gauger message
+ - Gauger indicated apportion 0.24 to resource 'DC1'
+
+ClientTick 10
+'DC1' max rate per cycle  10
+ - Taking 2 requests for 'DC1', had 22 pending requests, now 20
+ - Refreshing pending requests 'BE3->DC1' 20
+
+BE3 processing gauger message
+ - Gauger indicated apportion 0.24 to resource 'DC1'
+

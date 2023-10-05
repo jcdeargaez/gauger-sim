@@ -1,0 +1,74 @@
+ClientTick 1
+
+Incrementing pending requests to resource 'DC1' by 70
+ - Now 70 with initial apportion 0.1
+
+ClientTick 2
+'DC1' max rate per cycle  10
+ - Taking 1 requests for 'DC1', had 70 pending requests, now 69
+ - Refreshing pending requests 'BE1->DC1' 69
+
+ClientTick 3
+'DC1' max rate per cycle  10
+ - Taking 1 requests for 'DC1', had 69 pending requests, now 68
+ - Refreshing pending requests 'BE1->DC1' 68
+
+BE1 processing gauger message
+ - Gauger indicated apportion 0.58 to resource 'DC1'
+
+ClientTick 4
+'DC1' max rate per cycle  10
+ - Taking 5 requests for 'DC1', had 68 pending requests, now 63
+ - Refreshing pending requests 'BE1->DC1' 63
+
+BE1 processing gauger message
+ - Gauger indicated apportion 0.59 to resource 'DC1'
+
+ClientTick 5
+'DC1' max rate per cycle  10
+ - Taking 5 requests for 'DC1', had 63 pending requests, now 58
+ - Refreshing pending requests 'BE1->DC1' 58
+
+BE1 processing gauger message
+ - Gauger indicated apportion 0.59 to resource 'DC1'
+
+ClientTick 6
+'DC1' max rate per cycle  10
+ - Taking 5 requests for 'DC1', had 58 pending requests, now 53
+ - Refreshing pending requests 'BE1->DC1' 53
+
+BE1 processing gauger message
+ - Gauger indicated apportion 0.46 to resource 'DC1'
+
+ClientTick 7
+'DC1' max rate per cycle  10
+ - Taking 4 requests for 'DC1', had 53 pending requests, now 49
+ - Refreshing pending requests 'BE1->DC1' 49
+
+BE1 processing gauger message
+ - Gauger indicated apportion 0.45 to resource 'DC1'
+
+ClientTick 8
+'DC1' max rate per cycle  10
+ - Taking 4 requests for 'DC1', had 49 pending requests, now 45
+ - Refreshing pending requests 'BE1->DC1' 45
+
+BE1 processing gauger message
+ - Gauger indicated apportion 0.45 to resource 'DC1'
+
+ClientTick 9
+'DC1' max rate per cycle  10
+ - Taking 4 requests for 'DC1', had 45 pending requests, now 41
+ - Refreshing pending requests 'BE1->DC1' 41
+
+BE1 processing gauger message
+ - Gauger indicated apportion 0.45 to resource 'DC1'
+
+ClientTick 10
+'DC1' max rate per cycle  10
+ - Taking 4 requests for 'DC1', had 41 pending requests, now 37
+ - Refreshing pending requests 'BE1->DC1' 37
+
+BE1 processing gauger message
+ - Gauger indicated apportion 0.46 to resource 'DC1'
+
